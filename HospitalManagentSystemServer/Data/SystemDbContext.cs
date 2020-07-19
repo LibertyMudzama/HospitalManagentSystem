@@ -16,7 +16,8 @@ namespace HospitalManagentSystemServer.Data
         public DbSet<User> Users { get; set; }
         public DbSet<HospitalWard> Wards { get; set; }
         public DbSet<Hospital> Hospitals { get; set; }
-
+        public DbSet<Department> Departments { get; set; }
+        public DbSet<Bed> WardBeds { get; set; }
         public SystemDbContext(DbContextOptions<SystemDbContext> options):base(options)
         {
 

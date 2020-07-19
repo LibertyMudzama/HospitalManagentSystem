@@ -7,7 +7,7 @@ namespace HospitalManagementSystemShared.Models
     public class Doctor:PersonBase
     {
         public int DepartmentId { get; set; }
-        public abstract Department Department { get; set; }
+        public virtual Department Department { get; set; }
 
     }
 }
